@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:background="#B9138808"
+            android:layout_height="48dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="209dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:background="#D6D6D1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:text="Name"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text="XYZ_XYZ"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:background="#D6D6D1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:text="Number"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text="Contact_no"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:background="#D6D6D1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:text="Email"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text="xyzxyz@gmail.com"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:background="#D6D6D1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="My address"
+            android:background="#D7FF9933"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:background="#D6D6D1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Edit"
+            android:background="#D7FF9933"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

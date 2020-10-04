@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#DDD9D4"
+        app:cardElevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <ImageView
+                android:layout_width="87dp"
+                android:layout_height="87dp"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                android:id="@+id/thumbnail"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="vegetable"
+                    android:id="@+id/vege_name"
+                    android:padding="10dp"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quantity      "
+                    android:id="@+id/quantity"
+                    android:padding="10dp"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="amount              "
+                    android:padding="10dp"
+                    android:id="@+id/price"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                android:layout_width="87dp"
+                android:id="@+id/enb"
+                android:layout_height="45dp"
+                android:layout_gravity="end" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>

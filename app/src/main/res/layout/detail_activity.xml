@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_marginTop="64dp"
+            android:background="@color/colorPrimary"
+            android:layout_width="340dp"
+            android:layout_height="340dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/vege"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="64dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vegetable"
+            android:textSize="32sp"/>
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_below="@+id/vege"
+            android:layout_marginTop="11dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs"
+            android:textSize="32sp"
+            />
+        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+            android:id="@+id/enb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/price"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"/>
+        
+        <Button
+            android:id="@+id/id_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to card"
+            android:layout_below="@id/enb"
+            />
+    </RelativeLayout>
+
+</ScrollView>

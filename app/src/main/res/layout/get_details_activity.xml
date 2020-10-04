@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:background="#B9138808"
+        android:layout_height="48dp"/>
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_below="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/ramabhadra"
+            android:text="Tomato"
+            android:textColor="#DA1515"
+            android:textSize="28sp" />
+        <TextView
+            android:id="@+id/fresh"
+            android:layout_below="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="filled with Vitamin C"
+            />
+
+        <ImageView
+            android:id="@+id/vege"
+            android:layout_width="236dp"
+            android:layout_height="302dp"
+            android:layout_below="@+id/fresh"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+        android:layout_below="@+id/vege"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:background="#D6D6D1"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#EB000000"
+                android:fontFamily="@font/carme"
+                android:text="Price"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/price"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:fontFamily="@font/carme"
+                android:text="amount"
+                android:textSize="18sp"/>
+        </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:background="#D6D6D1"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/carme"
+                    android:text="Quantity"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/hind"
+                    android:text="1 kg"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:background="#D6D6D1"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:orientation="horizontal">
+
+                <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                    android:id="@+id/enb"
+                    android:layout_width="163dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_gravity="center_vertical" />
+
+                <Button
+                    android:id="@+id/id_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#B9138808"
+                    android:padding="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:text="Add to cart"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:background="#D6D6D1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:text="Available delivery slots"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/slots"
+                android:layout_width="match_parent"
+                android:layout_height="131dp"
+                android:background="#E6E5E3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DESCRIPTION"/>
+    </LinearLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
