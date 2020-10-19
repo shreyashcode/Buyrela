@@ -1,6 +1,6 @@
 # Buyrela
 
-Buyrela is an ecommerce app for grocery-delivery. App uses firebase authentication for OTP based login, GOOGLE MAP API for customer's address. The app has all the features that one can except from an e-commerce app.
+Buyrela is an ecommerce app for grocery-delivery. App uses firebase authentication for OTP based login, GOOGLE MAP API for customer's address. The app has all the features that one can expect from an e-commerce app.
 <i float = "left">
   <div class="img">
 <img src = "images/login.jpg" width="191"/>
